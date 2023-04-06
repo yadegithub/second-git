@@ -1,0 +1,78 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.jumbotron {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9M4sRmC-Ni1WMfO4V2RP6TdL2h8d3zh9N2g&usqp=CAU);
+}
+ul li a {
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+    height: 30px;
+    border: 0;
+    margin-top: 2.5vh;
+    margin-left: 4vw;
+    border-radius: 20px;
+    color: black;
+    background-color: #eee;
+}
+.Button1 input[type=Insert] {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    padding: 10px 15px;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    background-color: crimson;
+    border-radius: 20px;
+}
+.Button1 input[type=Transfer] {
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    padding: 10px 15px;
+    color: white;
+    width: 200px;
+    border-radius: 20px;
+    background-color: darkred;
+    border-radius: 20px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+
+.table-danger {
+    background-color: darkred;
+}
+.navbar-collapse collapse {
+    background-color: darkred;
+}
+.navbar navbar-expand-lg navbar-dark bg-dark{
+    height:500px;
+}
+
